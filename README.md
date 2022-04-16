@@ -1,4 +1,4 @@
-### **Node.js App** setup template using **`Typescript`** with **`ts-node-dev`** and **`paths`**, **`Eslint`** with **`Standard`** style, **`Jest`** and **`Husky`** with **`lint-staged`**.
+### **Node.js App** template using **`Typescript`** with **`ts-node-dev`** and **`paths`**, **`Eslint`** with **`Standard`** style, **`Jest`** and **`Husky`** with **`lint-staged`**.
 
 # Step-by-step
 
