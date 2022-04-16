@@ -8,7 +8,8 @@
     "build": "rimraf dist && tsc -p tsconfig.build.json && tsc-paths -p tsconfig.build.json -s ./src -o ./dist",
     "start": "npm run build && node dist/main/index.js",
     "test": "jest --passWithNoTests",
-    "test:watch": "npm test -- --watch"
+    "test:watch": "npm test -- --watch",
+    "test:staged": "npm test -- --findRelatedTests"
   },
   "keywords": [],
   "author": "",
