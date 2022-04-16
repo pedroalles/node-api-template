@@ -1,4 +1,4 @@
-### **Node.js App** setup using **`Typescript`** with **`ts-node-dev`** and **`paths`**, **`Eslint`** with **`Standard`** style, **`Jest`** and **`Husky`** with **`lint-staged`**.
+### **Node.js App** setup template using **`Typescript`** with **`ts-node-dev`** and **`paths`**, **`Eslint`** with **`Standard`** style, **`Jest`** and **`Husky`** with **`lint-staged`**.
 
 # Step-by-step
 
@@ -435,7 +435,7 @@ npm i -D husky
 ```json
 {
   "hooks": {
-    "pre-commit": "lint-staged",
+    "pre-commit": "npx lint-staged",
     "pre-push": "npm run test:ci"
   }
 }
