@@ -50,6 +50,10 @@
 
 ```sh
 npm init -y
+
+or
+
+yarn init -y
 ```
 
 ---
