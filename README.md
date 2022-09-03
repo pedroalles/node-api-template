@@ -86,6 +86,10 @@ node_modules
 npm i -D git-commit-msg-linter
 ```
 
+```sh
+yarn add -D git-commit-msg-linter
+```
+
 ---
 
 # Typescript
@@ -96,10 +100,18 @@ npm i -D git-commit-msg-linter
 npm i -D typescript @types/node
 ```
 
+```sh
+yarn add -D typescript @types/node
+```
+
 - Create `tsconfig.json` file:
 
 ```sh
 npx tsc --init
+```
+
+```sh
+yarn tsc --init
 ```
 
 - A new `tsconfig.json` file as below will be created:
@@ -141,6 +153,10 @@ dist
 npm i -D ts-node-dev
 ```
 
+```sh
+yarn add -D ts-node-dev
+```
+
 ## Dev script:
 
 - Add npm `dev script` in `package.json`:
@@ -163,6 +179,11 @@ npm i -D ts-node-dev
 ```sh
 npm i -D tsconfig-paths
 ```
+
+```sh
+yarn add -D tsconfig-paths
+```
+
 
 - Add `-r tsconfig-paths/register` to npm `dev script` in `package.json`:
 
@@ -201,6 +222,10 @@ npm i -D tsconfig-paths
 npm i -D tsc-paths-resolver
 ```
 
+```sh
+yarn add -D tsc-paths-resolver
+```
+
 - Add `tsc-paths` config to npm `build script` in `package.json`:
 
 ```json
@@ -221,6 +246,10 @@ npm i -D tsc-paths-resolver
 
 ```sh
 npm i -D rimraf
+```
+
+```sh
+yarn add -D rimraf
 ```
 
 - Add `rimraf dist &&` to npm `build script` in `package.json`:
@@ -267,6 +296,10 @@ npm i -D rimraf
 npm i -D eslint
 ```
 
+```sh
+yarn add -D eslint
+```
+
 - Initialize `eslint` configs and follow the steps:
 
 ```sh
@@ -310,16 +343,28 @@ dist
 npm i -D eslint-plugin-prettier eslint-config-prettier prettier-config-standard
 ```
 
+```sh
+yarn add -D eslint-plugin-prettier eslint-config-prettier prettier-config-standard
+```
+
 - Install `Prettier`:
 
 ```sh
 npm i -D prettier
 ```
 
+```sh
+yarn add -D prettier
+```
+
 - Then, install `eslint-config-prettier-standard`:
 
 ```sh
 npm i -D eslint-config-prettier-standard
+```
+
+```sh
+yarn add -D eslint-config-prettier-standard
 ```
 
 - #### The `.eslintrc.json` extends should be like:
